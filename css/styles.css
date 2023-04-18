@@ -1,13 +1,19 @@
+:root {
+  --white: #fff;
+  --light-blue:#2E2F42;
+
+}
+
 .logo {
     letter-spacing: 0.03em;
-    text-decoration: none
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-line-height: 1.17
-text-transform: uppercase;
-color: #2E2F42;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
 
 .logo-left {
@@ -16,15 +22,15 @@ color: #2E2F42;
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color: var(--white);
   color: #434455;
-
-  font-style:normal;
+  font-style: normal;
   font-weight: 500;
 }
 
+
 .header-main {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .contacts {
@@ -36,7 +42,7 @@ body {
 }
 
 .section-color {
-    background: #2E2F42;
+    background: var(--light-blue)
 }
 
 
@@ -45,17 +51,17 @@ body {
 }
 
 .footer {
-    background: #2E2F42;
-    color: #fff;
+    background: var(--light-blue)
+    color: var(--white);
 }
 
 .h1-selection {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 60px;
-color: #FFFFFF;
+color: var(--white);
 }
 
 .order-button {
@@ -64,7 +70,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-background: #4D5AE5;
+background:#4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
@@ -75,7 +81,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
-color: #2E2F42;
+color: var(--light-blue)
 }
 
 .our-team {
@@ -84,9 +90,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
-color: #2E2F42;
+color: var(--light-blue)
 }
 
 .list {
-    list-style: none;
+list-style-type: none;    
 }

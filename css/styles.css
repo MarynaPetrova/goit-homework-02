@@ -13,11 +13,13 @@
     line-height: 21px;
     line-height: 1.17;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-left {
-    color: #4D5AE5;
+    color: #2e2f42;
+    line-height: 1.17;
 }
 
 body {
@@ -62,10 +64,13 @@ font-weight: 700;
 font-size: 56px;
 line-height: 60px;
 color: var(--white);
+text-align: center;
+letter-spacing: 0.02em;
 }
 
 .order-button {
-    font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
+cursor: pointer;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -73,6 +78,7 @@ line-height: 24px;
 background:#4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+letter-spacing: 0.04em
 }
 
 .h2-what {
@@ -87,12 +93,41 @@ color: var(--light-blue)
 .our-team {
     font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-color: var(--light-blue)
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2px;
+color: #2e2f42;
+letter-spacing: 0.02em;
 }
 
 .list {
 list-style-type: none;    
+}
+
+.selection-2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraf-strategy {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-3 {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.selection-4 {
+    background-color: #F4F4FD;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }

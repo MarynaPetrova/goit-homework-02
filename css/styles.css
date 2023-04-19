@@ -89,7 +89,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
-color: var(--light-blue)
+color: var(--light-blue);
+line-height: 1.11;
 }
 
 .our-team {
@@ -97,9 +98,10 @@ color: var(--light-blue)
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2px;
 color: #2e2f42;
 letter-spacing: 0.02em;
+font-size: 36px;
+line-height: 1.11;
 }
 
 .selection-2 {

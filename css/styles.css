@@ -4,7 +4,7 @@
 
 }
 
-.logo {
+.link {
     letter-spacing: 0.03em;
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -98,10 +98,6 @@ font-size: 20px;
 line-height: 1.2px;
 color: #2e2f42;
 letter-spacing: 0.02em;
-}
-
-.list {
-list-style-type: none;    
 }
 
 .selection-2 {

@@ -88,15 +88,16 @@ body {
     background: var(--light-blue)
 }
 
+.our-strengths {
 
-
+}
 
 .footer {
     background: var(--light-blue)
     color: var(--white);
 }
 
-.h1-selection {
+.selection-h1 {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -197,5 +198,6 @@ line-height: 1.11;
     color: #2e2f42;
 }
 .list {
-  list-style: none  
+  list-style: none;
+  text-decoration: none
 }

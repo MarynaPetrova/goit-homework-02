@@ -44,29 +44,44 @@ body {
   background-color: var(--white);
 }
 
-.link-studio {
-  line-height: 1.5
-  letter-spacing: 0.02em
-  color: #2e2f42 
+.link-studio:link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration:none;
 }
 
-link-portfolio {
-    color: #4d5ae5; 
+.link-portfolio:link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration:none;
 }
 
-.button:hover
-.button:focus {
+.link-contacts:link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration:none;
+}
+
+.address {
+    font-style: normal;
+}
+
+
+.order-button :hover
+.order-button :focus {
     background-color: #404bbf;
     color: #ffffff;
 }
 
 
 .contacts {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .section-color {

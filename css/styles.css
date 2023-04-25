@@ -24,6 +24,14 @@
         text-decoration: none;
     }
 
+      .link a:hover {
+        color: #404bbf;
+    }
+
+    .link a:focus {
+        color: #404bbf;
+    }
+
     .link-list {
         list-style: none;
         font-weight: 500;
@@ -32,18 +40,7 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
-
-      .link-list a:hover {
-        color: #404bbf;
-    }
-
-    .link-list a:focus {
-        color: #404bbf;
-    }
-
-
-
-    
+   
 
     body {
         font-family: 'Roboto', sans-serif;

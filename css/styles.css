@@ -65,7 +65,20 @@
     .address {
         font-style: normal;
     }
+    .address-list {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        cOlor: #434455;
+    }
 
+    .address-list a:hover {
+        color: #404bbf 
+    }
+
+    .address-list a:focus {
+        color: #404bbf 
+    }
 
     .order-button {
     width: 106px;

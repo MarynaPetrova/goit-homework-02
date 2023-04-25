@@ -15,15 +15,14 @@
         text-transform: uppercase;
         color: #4d5ae5;
         text-decoration: none;
-        
     }
 
     .link {
-        font font-weight: 500;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 1.5em
-        letter-spacing: 0,02em
-        text-decoration: none
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        text-decoration: none;
     }
 
     .logo-left {
@@ -56,10 +55,38 @@
     }
 
 
-    .order-button :hover
-    .order-button :focus {
-        background-color: #404bbf;
-        color: #ffffff;
+    .order-button {
+    width: 106px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+    .order-button a:hover {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 51px;
+    left: 20px;
+    top: 88px;
+    background: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
     }
 
 
@@ -172,6 +199,8 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4d5ae5;
+        background-color: #F4F4FD;
+        cursor: pointer;
     }
 
     .portfolio-h3-sct {
@@ -194,3 +223,23 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
+
+
+.page-nav a {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.page-nav a:hover {
+ color: #434455;
+}

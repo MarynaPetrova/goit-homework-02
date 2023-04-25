@@ -58,6 +58,14 @@
         color: #2e2f42;
     }
 
+    .what-doing {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+    }
 
     body {
         font-family: 'Roboto', sans-serif;
@@ -171,15 +179,6 @@
         letter-spacing: 0.04em;
     }
 
-    .what-h2 {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        color: var(--light-blue);
-        line-height: 1.11;
-    }
 
     .our-team {
         font-family: 'Roboto';
@@ -258,19 +257,6 @@
     }
 
 
-.page-nav a {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
+
 
 

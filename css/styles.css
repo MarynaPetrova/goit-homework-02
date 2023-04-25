@@ -26,7 +26,11 @@
     }
 
     .link a:hover {
-        color: #434455;
+        color: #404bbf;
+    }
+
+    .link a:focus {
+        color: #404bbf;
     }
 
     .list {
@@ -42,7 +46,7 @@
         color: #2e2f42;
     }
 
-    .logo-left {
+    .logo-right {
         color: #2e2f42;
         line-height: 1.17;
     }

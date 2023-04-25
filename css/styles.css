@@ -16,6 +16,11 @@
         text-decoration: none;
     }
 
+    .logo-right {
+        color: #2e2f42;
+        line-height: 1.17;
+    }
+
     .link {
         text-decoration: none;
         list-style: none;
@@ -26,20 +31,8 @@
         color: #2E2F42;
     }
 
-    .link a:hover {
-        color: #404bbf;
-    }
-
-    .link a:focus {
-        color: #404bbf;
-    }
-
-    .list {
-        list-style: none;
-
-    }
-
     .link-list {
+        list-style: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -47,10 +40,17 @@
         color: #2e2f42;
     }
 
-    .logo-right {
-        color: #2e2f42;
-        line-height: 1.17;
+      .link a:hover {
+        color: #404bbf;
     }
+
+    .link-list a:focus {
+        color: #404bbf;
+    }
+
+
+
+    
 
     body {
         font-family: 'Roboto', sans-serif;

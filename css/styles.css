@@ -41,6 +41,23 @@
         color: #2e2f42;
     }
    
+    .header-main {
+        background-color: var(--white);
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+    }
+
+    .our-strengths-list {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
 
     body {
         font-family: 'Roboto', sans-serif;
@@ -51,9 +68,7 @@
     }
 
 
-    .header-main {
-        background-color: var(--white);
-    }
+    
 
     .link-studio:link {
         line-height: 1.5;
@@ -126,9 +141,6 @@
         background: var(--light-blue)
     }
 
-    .our-strengths {
-
-    }
 
     .footer {
         background: #2e2f42;

@@ -13,7 +13,6 @@
         line-height: 1.17;
         text-transform: uppercase;
         color: #4d5ae5;
-        text-decoration: none;
     }
 
     .logo-right {
@@ -23,12 +22,6 @@
 
     .link {
         text-decoration: none;
-        list-style: none;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
     }
 
     .link-list {

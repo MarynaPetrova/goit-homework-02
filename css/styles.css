@@ -46,7 +46,7 @@
         color: #2e2f42;
     }
    
-    .header-main {
+    .section-one-h {
         background-color: var(--white);
         font-size: 56px;
         line-height: 1.07;
@@ -63,7 +63,7 @@
         color: #2e2f42;
     }
 
-    .what-doing {
+    .section-three-h {
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -150,7 +150,7 @@
         color:#434455;
     }
 
-    .section-color {
+    .section-one {
         background: var(--light-blue)
     }
 
@@ -186,26 +186,20 @@
 
 
     .our-team {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
         letter-spacing: 0.02em;
-        color:#2e2f42;
+        text-transform: capitalize;
+        color: #2e2f42;
     }
 
-    .selection-2 {
+    .section-two {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-    }
-
-    .selection-2-h1 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
     }
 
     .paragraf-strategy {

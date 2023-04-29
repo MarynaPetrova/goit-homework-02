@@ -233,6 +233,10 @@
         text-transform: capitalize;
     }
 
+    .section-four-list {
+        background-color: #FFFFFF;
+    }
+
     .filter-button {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -253,7 +257,7 @@
     }
 
 
-    .selection-2-h3 {
+    .selection-four-h {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;

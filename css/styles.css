@@ -15,8 +15,13 @@
         color: #4d5ae5;
     }
 
-    .logo-right {
+    .logo-right-header {
         color: #2e2f42;
+        line-height: 1.17;
+    }
+
+    .logo-right-footer {
+        color: #f4f4fd;
         line-height: 1.17;
     }
 
@@ -24,7 +29,7 @@
         text-decoration: none;
     }
 
-      .link a:hover {
+    .link a:hover {
         color: #404bbf;
     }
 

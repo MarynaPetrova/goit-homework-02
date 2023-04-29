@@ -45,6 +45,14 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
+
+    .link-list:hover {
+        color: #404bbf;
+    }
+
+    .link-list:focus {
+        color: #404bbf;
+    }
    
     .section-one-h {
         background-color: var(--white);

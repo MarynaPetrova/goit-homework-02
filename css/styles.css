@@ -248,6 +248,11 @@
         cursor: pointer;
     }
 
+    .list {
+        list-style: none;
+        
+    }
+
     .portfolio-h3-sct {
         font-weight: 500;
         font-size: 20px;
@@ -266,4 +271,4 @@
     }
 
 
-    ghbdtn
+    

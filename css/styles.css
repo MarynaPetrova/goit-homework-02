@@ -39,7 +39,7 @@
 
     .link-list {
         list-style: none;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -73,8 +73,9 @@
     }
    
     .section-one-h {
-        background-color: var(--white);
+        font-weight: 700;
         font-size: 56px;
+        font-weight: 700;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
@@ -90,6 +91,7 @@
     }
 
     .section-three-h {
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -99,6 +101,7 @@
     }
 
     .section-four-h {
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -112,8 +115,6 @@
         font-family: 'Roboto', sans-serif;
         background-color: var(--white);
         color: #434455;
-        font-style: normal;
-        font-weight: 500;
     }
 
 
@@ -128,6 +129,7 @@
         font-style: normal;
     }
     .address-list {
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -168,6 +170,7 @@
 
     .footer {
         background: #2e2f42;
+        color: #F4F4FD;
     }
 
     .selection-h1 {
@@ -200,6 +203,7 @@
     }
 
     .section-two-p {
+        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-size: 16px;
@@ -251,11 +255,17 @@
 
 
     .portfolio-list-p {
+        font-weight: 700;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
 
-
-    
+    .footer-p {
+        font-weight: 400;
+        Font size: 16px;
+        Line height: 24px;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+    }
